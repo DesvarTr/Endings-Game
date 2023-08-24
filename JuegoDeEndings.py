@@ -1,0 +1,1 @@
+print("En esta ocasión nos encontramos en un ambiente muy denso y oscuro")
