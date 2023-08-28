@@ -7,7 +7,7 @@ def VALIDACION(Opcioncilla):
         pass
 
     else:
-        print("ASEGU´RATE DE INGRESAR UNA OPCIÓN VÁLIDA\n")
+        print("ASEGURATE DE INGRESAR UNA OPCIÓN VÁLIDA\n")
         Opcioncilla = input("Intentalo de nuevo! (Z) / (X) ").upper()
         VALIDACION(Opcioncilla)
 
@@ -21,7 +21,7 @@ PARA SELECCIONAR, ESCRIBE LA OPCIÓN QUE DESEES Y PRESIONA ENTER""")
 Opcion1 = input("\nIr al gimnasio (Z) / Visitar a un amigo (X) ").upper()
 
 VALIDACION(Opcion1)
-print("")
+print(Opcion1,"JAJAJJA")
 
 if Opcion1 == "Z":
     print("De camino al gimnasio ")
@@ -31,4 +31,15 @@ elif Opcion1 == "X":
 y tienes dos rutas por las cuales ir, talvez una de ellas sea más corta.""")
     
     OpcionX1 = input("\nTomar la ruta convencional (Z) / Tomar la ruta desolada (X) ").upper()
+    VALIDACION(OpcionX1)
 
+    if OpcionX1 == "X":
+        print("""Por la ruta desolada, simplemente continúas tu camino tranquilamente, pero te quedas a medio camino sin gas
+ahora deberás encontrar una manera de recargar tu tanque o avanzar a pie, tu vehículo es una moto así que no será tan dificil
+caminar con el.""")
+        
+        OpcionX2 = input("\nCaminar a través del bosque (Z) / Caminar siguiendo la ruta (X) ").upper()
+        VALIDACION(OpcionX2)
+
+        if OpcionX2:
+            print("")
