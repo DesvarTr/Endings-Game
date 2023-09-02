@@ -103,28 +103,28 @@ DEATH ENDING: NO TE CONVERTISTE EN ZOMBIE, PERO MORISTE A CAUSA DE SUS ATAQUES""
 ya que esta aporta protección y seguridad máxima, aparte que el acceso por el momento es ilimitado y puedes utilizar celdas como laboratorios.
 Una holeada de zombies ha entrado a la ciudad, y a los alrededores.""")
 
-    OpcionZ5 = input("\nCapturar zombies para investigar (Z) / Esconderse y buscar proviciones (X) ").upper()
-    OpcionZ5 = VALIDACION(OpcionZ5)
+        OpcionZ5 = input("\nCapturar zombies para investigar (Z) / Esconderse y buscar proviciones (X) ").upper()
+        OpcionZ5 = VALIDACION(OpcionZ5)
 
-    if OpcionZ5 == "Z":
-        print("""Sorprendentemente tu idea sale bien, logras encerrrar zombies en celdas de prisión, y buscas cambios conforme
-los vas capturando, notas que algunos poseen mutaciones que otros no, como lo son el aumento anabólico y la fuerza de agarre.
-Poco a poco vas investigando más a fondo, al punto que te vuelves loco por tu investigación. A cierto punto pierdes totalmente la cordura
-te das cuenta que ser un zombie es mucho mejor que ser un humano, y sin pensarlo. Voluntariamente te expones a un contagio.
+        if OpcionZ5 == "Z":
+            print("""Sorprendentemente tu idea sale bien, logras encerrrar zombies en celdas de prisión, y buscas cambios conforme
+    los vas capturando, notas que algunos poseen mutaciones que otros no, como lo son el aumento anabólico y la fuerza de agarre.
+    Poco a poco vas investigando más a fondo, al punto que te vuelves loco por tu investigación. A cierto punto pierdes totalmente la cordura
+    te das cuenta que ser un zombie es mucho mejor que ser un humano, y sin pensarlo. Voluntariamente te expones a un contagio.
 
-MAD ENDING: TE VOLVISTE LOCO, AHORA ERES UN ZOMBI QUE ALGUNA VEZ FUE UN CIENTÍFICO INDEPENDIENTE""")
-        
-    elif OpcionZ5 == "X":
-        print("""Te escondes bien en la prisión, pero hay muy poca comida restante, decides que tendrás que arriesgarte y volver
-a la ciudad en busca de comida, pero de camino encuentras a un grupo de zombies que increíblemente ha desarrollado la capacidad
-de manejar carros casi a la perfección, los zombies te siguen por un lado, y rápidamente se vuelve una carrera, no, una pelea
-automovilística. El momento es frenético, el piloto del auto zombie solo espera la oportunidad de chocar, o que algun zombi se lance
-y pueda infectarte, en un segundo, un helicoptero de las fuerzas aliadas pasa por encima del carro, pero esto causa una catástrofe.
-La luz te encandila por un segundo, el cual aprovecharon los zombies para chocarte, tu auto queda inservible, y sorprendentemente sobrevives.
-Al final, te das cuenta que diversos metales quedaron incrustados en tu pecho por el accidente, los zombies murieron casi inmediatamente.
-Ya no te queda más que esperar a una muerte lenta por desangramiento.
-              
-RACING ENDING: EL CHOQUE TE DEJÓ HERIDO, AHORA MORIRÁS POR DESANGRAMIENTO EN POCAS HORAS""")
+    MAD ENDING: TE VOLVISTE LOCO, AHORA ERES UN ZOMBI QUE ALGUNA VEZ FUE UN CIENTÍFICO INDEPENDIENTE""")
+            
+        elif OpcionZ5 == "X":
+            print("""Te escondes bien en la prisión, pero hay muy poca comida restante, decides que tendrás que arriesgarte y volver
+    a la ciudad en busca de comida, pero de camino encuentras a un grupo de zombies que increíblemente ha desarrollado la capacidad
+    de manejar carros casi a la perfección, los zombies te siguen por un lado, y rápidamente se vuelve una carrera, no, una pelea
+    automovilística. El momento es frenético, el piloto del auto zombie solo espera la oportunidad de chocar, o que algun zombi se lance
+    y pueda infectarte, en un segundo, un helicoptero de las fuerzas aliadas pasa por encima del carro, pero esto causa una catástrofe.
+    La luz te encandila por un segundo, el cual aprovecharon los zombies para chocarte, tu auto queda inservible, y sorprendentemente sobrevives.
+    Al final, te das cuenta que diversos metales quedaron incrustados en tu pecho por el accidente, los zombies murieron casi inmediatamente.
+    Ya no te queda más que esperar a una muerte lenta por desangramiento.
+                
+    RACING ENDING: EL CHOQUE TE DEJÓ HERIDO, AHORA MORIRÁS POR DESANGRAMIENTO EN POCAS HORAS""")
 
 elif Opcion1 == "X":
     print("""Sales en tu vehículo, ya que su casa no está muy cerca... el viaje será largo, posiblemente te tome 30 minutos
