@@ -10,6 +10,8 @@ def VALIDACION(Opcioncilla):
         Opcioncilla = input("Intentalo de nuevo! (Z) / (X) ").upper()
         return VALIDACION(Opcioncilla)
 
+Continuacion = False
+
 print("""\nAyer fue una noche lluviosa y afortunadamente tuviste una noche de sueño tranquila...
 es martes, no tienes mucho que hacer, después de todo estás de vacaciones y puedes usar tu tiempo a gusto.
       
@@ -19,8 +21,6 @@ PARA SELECCIONAR, ESCRIBE LA OPCIÓN QUE DESEES Y PRESIONA ENTER""")
 
 Opcion1 = input("\nIr al gimnasio (Z) / Visitar a un amigo (X) ").upper()
 Opcion1 = VALIDACION(Opcion1)
-
-print(Opcion1,"JAJAJJA")
 
 if Opcion1 == "Z":
     print("""De camino al gimnasio te das cuenta que no está abierto, de hecho, al darte cuenta de eso vas a dar unas vueltas por
